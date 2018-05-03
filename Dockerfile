@@ -1,4 +1,4 @@
-FROM node:8.9-alpine
+FROM node:alpine
 
 RUN apk add --update --no-cache yarn git openssh \
     python py-pip py-setuptools ca-certificates curl groff less && \
